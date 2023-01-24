@@ -16,7 +16,7 @@ import org.springframework.http.HttpMethod;
 import org.springframework.http.ResponseEntity;
 
 @SpringBootTest(webEnvironment = WebEnvironment.RANDOM_PORT)
-public class SurveyResourrceIT {
+public class SurveyResourceIT {
 
 	@Autowired
 	private TestRestTemplate template;
